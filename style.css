@@ -201,3 +201,30 @@ header .image img{
     font-size: 20px;
 
 }
+.contact{
+    width: 40%;
+    height: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+}
+.contact ul li{
+    display: flex;
+    align-items:start;
+    margin-top: 40px; 
+    margin-right:30px;
+}
+#name{
+    border: 1px solid black;
+}
+#email{
+    border: 1px solid black;
+}
+#message{
+    border: 1px solid black;
+    height: 10rem;
+    width: 25rem;
+    display: flex;
+    justify-content: start;
+}
