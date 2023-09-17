@@ -40,45 +40,54 @@
         <img src="ppp.png" alt="">
       </div>
     </header>
-        <div class="card-container">
-          <div class="card1">
-              <h2>FRONTEND </h2>
-              <p>Languages:Html, Css , Javascript</p>
-              <p>Frameworks: Tailwind, React</p>
-          </div>
-          <div class="card2">
-              <h2>BACKEND</h2>
-              <p>Language: Python, Ruby</p>
-              <p>Frameworks: Flask, Rails</p>
-          </div>
-          <div class="card3">
-              <h2>OTHERS</h2>
-              <p>A.I: Little knowlwdge of artificial intelligent</p>
-              <p>Basic knowlwdge of figma for UI/UX</p>
-              <p>Basic knowledge of Filmora for video editing and soon</p>
-          </div> 
+    <div class="card-container">
+      <div class="hd">
+        <h1>My knowledge</h1>
       </div>
+      <div class="card frontend" onclick="toggleOverlay('frontend')">
+          <h2>FRONTEND</h2>
+          <p>Languages: HTML, CSS, JavaScript</p>
+          <p>Frameworks: Tailwind, React</p>
+          <div class="overlay" id="frontend-overlay">
+              <h2>Frontend</h2>
+              <p>Click to learn more</p>
+          </div>
+      </div>
+      <div class="card backend" onclick="toggleOverlay('backend')">
+          <h2>BACKEND</h2>
+          <p>Languages: Python, Ruby</p>
+          <p>Frameworks: Flask, Rails</p>
+          <div class="overlay" id="backend-overlay">
+              <h2>Backend</h2>
+              <p>Click to learn more</p>
+          </div>
+      </div>
+      <div class="card others" onclick="toggleOverlay('others')">
+          <h2>OTHERS</h2>
+          <p>A.I: Little knowledge of artificial intelligence</p>
+          <p>Basic knowledge of Figma for UI/UX</p>
+          <p>Basic knowledge of Filmora for video editing and more</p>
+          <div class="overlay" id="others-overlay">
+              <h2>Others</h2>
+              <p>Click to learn more</p>
+          </div>
+      </div>
+  </div>
       <div class="contact">
-        <h2>Talk to me</h2>
-        <form action="" method="post">
-          <ul>
-             <li>
-              <label for="name">Name:</label>
-              <input type="text" name="name" id="name" placeholder="Ram Singh">
-          </li>
-          <li> <label for="email">Email:</label>
-          <input type="email" name="Email" id="email" placeholder="abc@gmail.com"></li>
-          <li>
-            <li>
-              <label for="message"></label>
-              <input type="text" name="message" id="message" placeholder="Enter your message here">
-            </li>
-          </ul>
-        </form>
+        <h1>Contact Us</h1>
+  <form id="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
 
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br>
+
+    <input type="submit" value="Submit">
+  </form>
       </div>
-    
-    
       <script src="main.js"></script>
   </body>
 </html>
