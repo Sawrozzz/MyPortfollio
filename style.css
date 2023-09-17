@@ -18,7 +18,9 @@ text-decoration: none;
 
 body{
     font-family: 'Poppins',sans-serif;
-    background-color: #18181B;
+    /* background-color: #18181B; */
+    height: 100vh;
+    
 }
 nav{
     max-width: 1200px;
@@ -41,7 +43,7 @@ nav{
 .link a{
     position: relative;
     padding-bottom: 0.75rem;
-    color: white
+    /* color: white */
 }
 .link a::after{
     content: "";
@@ -61,14 +63,14 @@ nav{
     height: 40px;
     width: 10rem;
     font-size: 1rem;
-    color: #fff;
+    /* color: #fff; */
     background-color: blue;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .btn:hover{
-    background-color: white;
+    /* background-color: white; */
     color: blue;
 }
 
@@ -100,7 +102,7 @@ header .content h4{
     font-weight: 600;
 }
 header .content h1{
-    color: #fff;
+    /* color: #fff; */
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 700;
@@ -109,11 +111,11 @@ header .content h1{
 
 header .content h1 spaatgotn{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #fff;
+    /* -webkit-text-stroke: 1px #fff; */
 }
 header.container p {
     margin-bottom: 2rem;
-    color: #ccc;
+    /* color: #ccc; */
 }
 /* header.image::before{
     content: "o";
@@ -127,4 +129,75 @@ header .image img{
     max-width: 600px;
     margin: auto;
 }
+.card{
+    height: 100%;
+}
+.card-container {
+    display: flex;
+    gap: 7rem;
+    height: 30%;
+    justify-content: space-between;
+    margin-top: 100px; /* Adjust this value to move the card container down */
+}
 
+.card1{
+    width: 40%;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-left: 20px;
+} 
+.card1 p{
+    font-family: serif;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+.card1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1800;
+    font-size: 35px
+}
+.card2{
+    width: 40%;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px
+  
+}
+.card2 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1800;
+    font-size: 35px
+}
+.card2 p{
+    font-family: serif;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+.card3{
+    width: 40%;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-right: 20px;
+   
+}
+.card3 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1800;
+    font-size: 35px
+}
+.card3 p{
+    font-family: serif;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
