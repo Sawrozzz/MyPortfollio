@@ -30,6 +30,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    background: white;
+    z-index: 100;
 }
 .nav-logo{
     max-width: 100px;
@@ -40,12 +42,12 @@ nav{
     align-items: center;
     gap:3rem;
 }
-.link a{
+.link1 a{
     position: relative;
     padding-bottom: 0.75rem;
     /* color: white */
 }
-.link a::after{
+.link1 a::after{
     content: "";
     position: absolute;
     height: 2px;
@@ -55,7 +57,61 @@ nav{
     background-color: rgb(35, 210, 19);
     transition: all 0.3s ease;
 }
-.link a:hover::after{
+.link1 a:hover::after{
+    width: 80%;
+}
+.link2 a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    /* color: white */
+}
+.link2 a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(35, 210, 19);
+    transition: all 0.3s ease;
+}
+.link2 a:hover::after{
+    width: 80%;
+}
+.link3 a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    /* color: white */
+}
+.link3 a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(35, 210, 19);
+    transition: all 0.3s ease;
+}
+.link3 a:hover::after{
+    width: 80%;
+}
+.link4 a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    /* color: white */
+}
+.link4 a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(35, 210, 19);
+    transition: all 0.3s ease;
+}
+.link4 a:hover::after{
     width: 80%;
 }
 .btn{
@@ -164,6 +220,7 @@ header .image img{
  .contact h1 {
     text-align: center;
     margin-top: 20px;
+    color: white;
   }
   
 #contact-form {

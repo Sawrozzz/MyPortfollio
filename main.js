@@ -21,10 +21,11 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
     // For now, let's just log the form data for demonstration purposes
     console.log("Form Data:", formData);
   
-    // Optionally, you can display a confirmation message to the user
+    // Optionally, you can display a confirmation message to the user\
     alert("Form submitted successfully. Email sending functionality is not implemented in this example.");
   });
   function showDetails(id) {
     const details = document.getElementById(id + '-details');
     details.style.display = 'block';
-}  
+}
+
